@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import logo from "../assets/logo.png";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { VscChromeClose } from "react-icons/vsc";
-import { useState } from "react";
+import styled from 'styled-components';
+import logo from '../assets/logo.png';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { VscChromeClose } from 'react-icons/vsc';
+import { useState } from 'react';
 
 export default function Navbar() {
   const [navbarState, setNavbarState] = useState(false);
@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="brand">
           <div className="container">
             <img src={logo} alt="" />
-            Travelo
+            Try Ceylon Travels
           </div>
           <div className="toggle">
             {navbarState ? (
@@ -143,7 +143,7 @@ const ResponsiveNav = styled.div`
   display: flex;
   position: absolute;
   z-index: 1;
-  top: ${({ state }) => (state ? "50px" : "-400px")};
+  top: ${({ state }) => (state ? '50px' : '-400px')};
   background-color: white;
   height: 30vh;
   width: 100%;
