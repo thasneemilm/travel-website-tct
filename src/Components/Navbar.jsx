@@ -11,7 +11,7 @@ export default function Navbar() {
       <Nav>
         <div className="brand">
           <div className="container">
-            <img src={logo} alt="" />
+            {/* <img src={logo} alt="" /> */}
             Try Ceylon Travels
           </div>
           <div className="toggle">
@@ -28,6 +28,9 @@ export default function Navbar() {
           </li>
           <li>
             <a href="#services">About</a>
+          </li>
+          <li>
+            <a href="#recommend">Packages</a>
           </li>
           <li>
             <a href="#recommend">Places</a>
